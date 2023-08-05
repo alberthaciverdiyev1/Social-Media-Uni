@@ -1,0 +1,315 @@
+@mixin input($width, $height) {
+    display: flex;
+    width: $width;
+    height: $height;
+    padding-left: 0px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 161px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--majorelle-blue, #6B50F6);
+    background: var(--white, #FFF);
+}
+
+@mixin button($border: none, $border-radius: 6px, $color: #ffff, $back-color: #18A0FB, $width: 130px, $height: 40px, $padding: 16px 36px 15px 36px) {
+    border: $border;
+    border-radius: $border-radius;
+    color: $color;
+    background-color: $back-color;
+    width: $width;
+    height: $height;
+    padding: $padding;
+    cursor: pointer;
+}
+
+@mixin h6($color) {
+    color: $color;
+    /* H6 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+@mixin h5($color) {
+    color: $color;
+    /* H5 */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@mixin h4($color) {
+    color: $color;
+    /* H4 */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@mixin h3($color) {
+    color: $color;
+
+    /* H3 */
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@mixin h2($color) {
+    color: $color;
+    /* H2 */
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@mixin h1($color) {
+    color: $color;
+    /* H1 */
+
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 60px */
+}
+
+@mixin text-ex-lg($color) {
+    color: $color;
+    /* Body/XL */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 36px */
+}
+
+@mixin text-lg($color) {
+    color: $color;
+    /* Body/Large */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+@mixin text-md($color) {
+    color: $color;
+
+    /* Body/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+@mixin text-sm($color) {
+    color: $color;
+    /* Body/Small */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 21px */
+}
+
+
+@mixin icon() {
+    display: inline-block;
+    vertical-align: middle;
+    width: 44px;
+    height: 44px;
+    padding: 6px;
+    gap: 10px;
+    border-radius: 48px;
+    border: 1px solid var(--white, #FFF);
+}
+
+footer {
+    background-color: #060026;
+}
+
+.input {
+    @include input($width: 457px, $height: 48px);
+}
+
+.submit-button {
+    @include button()
+}
+
+.submit-button2 {
+    @include button($back-color: ffff, $color: #18A0FB, $border: 1px solid #18A0FB)
+}
+
+.text-ex-lg-light {
+    @include text-ex-lg($color: #060026)
+}
+
+.text-lg-light {
+    @include text-lg($color: #060026)
+}
+
+.text-md-light {
+    @include text-md($color: #060026)
+}
+
+.text-sm-light {
+    @include text-sm($color: #060026)
+}
+
+.h1-light {
+    @include h1($color: #060026)
+}
+
+.h2-light {
+    @include h2($color: #060026)
+}
+
+.h3-light {
+    @include h3($color: #060026)
+}
+
+.h4-light {
+    @include h4($color: #060026)
+}
+
+.h5-light {
+    @include h5($color: #060026)
+}
+
+.h6-light {
+    @include h6($color: #060026)
+}
+
+
+
+.h1-dark {
+    @include h1($color: whitesmoke)
+}
+
+.h2-dark {
+    @include h2($color: whitesmoke)
+}
+
+.h3-dark {
+    @include h3($color: whitesmoke)
+}
+
+.h4-dark {
+    @include h4($color: whitesmoke)
+}
+
+.h5-dark {
+    @include h5($color: whitesmoke)
+}
+
+.h6-dark {
+    @include h6($color: whitesmoke)
+}
+
+
+.text-ex-lg-dark {
+    @include text-ex-lg($color: whitesmoke)
+}
+
+.text-lg-dark {
+    @include text-lg($color: whitesmoke)
+}
+
+.text-md-dark {
+    @include text-md($color: whitesmoke)
+}
+
+.text-sm-dark {
+    @include text-sm($color: whitesmoke)
+}
+
+.icon {
+    @include icon()
+}
+
+.form-input {
+    display: flex
+}
+
+.form-input-button-light {
+    @include button($border-radius: 0px 8px 8px 0px, $back-color: #6B50F6, $padding: 19px 36px 33px 36px);
+    position: absolute;
+    margin-left: 330px;
+}
+
+.form-input-button-dark {
+    @include button($border-radius: 0px 8px 8px 0px, $back-color: #060026, $padding: 19px 36px 33px 36px);
+    position: absolute;
+    margin-left: 330px;
+}
+
+
+
+.footer-left-text-dark {
+    @include h2($color: whitesmoke);
+    margin-top: 69px;
+    margin-left: 120px;
+    text-align: left;
+}
+
+.footer-left-image {
+    @include h2($color: whitesmoke);
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-bottom: 117px;
+    text-align: left;
+}
+
+.footer-table {
+    margin-top: 69px;
+    width: 70%;
+    border-collapse: collapse;
+    align-items: center;
+    display: flexbox;
+}
+
+.footer-table-data {
+    padding: 10px;
+    text-align: left;
+}
+
+.footer-border-dark {
+    border: 1px solid whitesmoke;
+    opacity: 0.2;
+}
+
+.footer-border-light {
+    border: 1px solid #060026;
+    opacity: 0.2;
+
+}
+
+.footer-copyright-div {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copyright {
+    @include text-sm($color: white);
+    align-content: center;
+    padding: 0px, 36px, 0px, 36px;
+}

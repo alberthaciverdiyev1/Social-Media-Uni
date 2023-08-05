@@ -1,0 +1,10 @@
+
+
+
+@mixin input($border,$padding,$font-size,$color,$background-color){
+border:$border;
+padding:$padding;
+font-size:$font-size;
+color:$color;
+background-color:$background-color;
+}

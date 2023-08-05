@@ -1,0 +1,356 @@
+footer {
+  background-color: #060026;
+}
+
+.input {
+  display: flex;
+  width: 457px;
+  height: 48px;
+  padding-left: 0px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 161px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--majorelle-blue, #6B50F6);
+  background: var(--white, #FFF);
+}
+
+.submit-button {
+  border: none;
+  border-radius: 6px;
+  color: white;
+  background-color: #18A0FB;
+  width: 130px;
+  height: 40px;
+  padding: 16px 36px 15px 36px;
+  cursor: pointer;
+}
+
+.submit-button2 {
+  border: 1px solid #18A0FB;
+  border-radius: 6px;
+  color: #18A0FB;
+  background-color: ffff;
+  width: 130px;
+  height: 40px;
+  padding: 16px 36px 15px 36px;
+  cursor: pointer;
+}
+
+.text-ex-lg-light {
+  color: #060026;
+  /* Body/XL */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 36px */
+}
+
+.text-lg-light {
+  color: #060026;
+  /* Body/Large */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 27px */
+}
+
+.text-md-light {
+  color: #060026;
+  /* Body/Medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-sm-light {
+  color: #060026;
+  /* Body/Small */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 21px */
+}
+
+.h1-light {
+  color: #060026;
+  /* H1 */
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 60px */
+}
+
+.h2-light {
+  color: #060026;
+  /* H2 */
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.h3-light {
+  color: #060026;
+  /* H3 */
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.h4-light {
+  color: #060026;
+  /* H4 */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.h5-light {
+  color: #060026;
+  /* H5 */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.h6-light {
+  color: #060026;
+  /* H6 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.h1-dark {
+  color: whitesmoke;
+  /* H1 */
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  /* 60px */
+}
+
+.h2-dark {
+  color: whitesmoke;
+  /* H2 */
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.h3-dark {
+  color: whitesmoke;
+  /* H3 */
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.h4-dark {
+  color: whitesmoke;
+  /* H4 */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.h5-dark {
+  color: whitesmoke;
+  /* H5 */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.h6-dark {
+  color: whitesmoke;
+  /* H6 */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text-ex-lg-dark {
+  color: whitesmoke;
+  /* Body/XL */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 36px */
+}
+
+.text-lg-dark {
+  color: whitesmoke;
+  /* Body/Large */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 27px */
+}
+
+.text-md-dark {
+  color: whitesmoke;
+  /* Body/Medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-sm-dark {
+  color: whitesmoke;
+  /* Body/Small */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 21px */
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 44px;
+  height: 44px;
+  padding: 6px;
+  gap: 10px;
+  border-radius: 48px;
+  border: 1px solid var(--white, #FFF);
+}
+
+.form-input {
+  display: flex;
+}
+
+.form-input-button-light {
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  color: white;
+  background-color: #6B50F6;
+  width: 130px;
+  height: 40px;
+  padding: 19px 36px 33px 36px;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 330px;
+}
+
+.form-input-button-dark {
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  color: white;
+  background-color: #060026;
+  width: 130px;
+  height: 40px;
+  padding: 19px 36px 33px 36px;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 330px;
+}
+
+.footer-left-text-dark {
+  color: whitesmoke;
+  /* H2 */
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 69px;
+  margin-left: 120px;
+  text-align: left;
+}
+
+.footer-left-image {
+  color: whitesmoke;
+  /* H2 */
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 40px;
+  margin-left: 120px;
+  margin-bottom: 117px;
+  text-align: left;
+}
+
+.footer-table {
+  margin-top: 69px;
+  width: 70%;
+  border-collapse: collapse;
+  align-items: center;
+  display: flexbox;
+}
+
+.footer-table-data {
+  padding: 10px;
+  text-align: left;
+}
+
+.footer-border-dark {
+  border: 1px solid whitesmoke;
+  opacity: 0.2;
+}
+
+.footer-border-light {
+  border: 1px solid #060026;
+  opacity: 0.2;
+}
+
+.footer-copyright-div {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-copyright {
+  color: white;
+  /* Body/Small */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 21px */
+  align-content: center;
+  padding: 0px, 36px, 0px, 36px;
+}/*# sourceMappingURL=main.css.map */
